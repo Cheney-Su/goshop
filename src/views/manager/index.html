@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Doubles商城后台管理系统</title>
+    <style type="text/css">
+        body {
+            color: white;
+        }
+    </style>
+</head>
+<body style="background: #278296">
+<form method="post" action="/adminUser_login.action" target="_parent" name='theForm'>
+    <table cellspacing="0" cellpadding="0" style="margin-top: 100px" align="center">
+        <tr>
+            <td style="padding-left: 50px">
+                <table>
+                    <tr>
+                        <td>管理员姓名：</td>
+                        <td><input type="text" name="username" required /></td>
+                    </tr>
+                    <tr>
+                        <td>管理员密码：</td>
+                        <td><input type="password" name="password" required/></td>
+                    </tr>
+                    <tr><td>&nbsp;</td><td><input type="submit" value="进入管理中心" class="button" /></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <input type="hidden" name="act" value="signin" />
+</form>
+<script lang="javascript" src="/js/jquery-1.8.3.js"></script>
+<script lang="javascript" src="/js/index.js"></script>
+<script language="JavaScript">
+    document.forms['theForm'].elements['username'].focus();
+</script>
+</body>
+</html>

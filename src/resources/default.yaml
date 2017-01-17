@@ -1,0 +1,20 @@
+##默认都是字符串，需要用到时再进行转换
+isDevelopment: "true"
+
+db:
+  dialect: "mysql"
+  host: "localhost"
+  port: "3306"
+  user: "root"
+  password: "123456"
+  database: "shop"
+  maxIdle: "20"
+  maxOpen: "20"
+
+redis:
+  addr: "127.0.0.1:6379"
+  password: ""
+  database: 0
+  max-idle: 20
+  max-active: 50
+  idle-timeout: 60
