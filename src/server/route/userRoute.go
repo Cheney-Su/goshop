@@ -2,7 +2,7 @@ package route
 
 import (
 	"github.com/kataras/iris"
-	"go/src/server/entity"
+	"goshop/src/server/entity"
 	"goshop/src/server/service"
 )
 
